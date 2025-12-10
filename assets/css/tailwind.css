@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Paleta base (mantém cores/blush originais) */
+:root {
+  --bg: #f7f7fb; /* neutral app background */
+  --surface: #ffffff;
+  --muted: #64748b;
+  --ink: #071433;
+  --blush-700: #b4538a;
+}
+
+body {
+  @apply text-slate-900 bg-[color:var(--bg)] min-h-screen antialiased font-sans;
+}
+
+.container-bleed {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Utils para espaçamento/visual de app */
+.app-header-space {
+  height: 64px; /* espaço reservado para header sticky */
+}
+
+.card-title {
+  @apply text-lg font-semibold text-ink;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+/* Botões padronizados */
+.btn {
+  @apply inline-flex items-center justify-center rounded-md px-3 py-2 text-sm font-semibold transition focus:outline-none;
+}
+.btn-primary {
+  @apply btn bg-ink text-white;
+}
+.btn-outline {
+  @apply btn border border-slate-200 text-ink bg-white;
+}
+.btn-danger {
+  @apply btn bg-red-600 text-white;
+}
+.btn-ghost {
+  @apply btn text-slate-700 bg-transparent;
+}
