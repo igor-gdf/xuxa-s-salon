@@ -1,11 +1,9 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function Register() {
   return (
     <div>
       <main>
         <h1>
-          Home Page
+          Pagina de Registro
         </h1>
       </main>
     </div>

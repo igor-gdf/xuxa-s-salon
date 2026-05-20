@@ -1,11 +1,9 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function Login() {
   return (
     <div>
       <main>
         <h1>
-          Home Page
+          Pagina de Login
         </h1>
       </main>
     </div>
