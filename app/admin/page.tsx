@@ -3,7 +3,7 @@ export default function Admin() {
     <div>
       <main>
         <h1>
-          Pagina de <Administrador></Administrador>
+          Pagina de Administrador
         </h1>
       </main>
     </div>
