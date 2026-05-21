@@ -1,9 +1,9 @@
-export default function calendar() {
+export default function AdminCalendar() {
   return (
     <div>
       <main>
         <h1>
-          Pagina de Calendario
+          Pagina de Calendário para Administrador
         </h1>
       </main>
     </div>
